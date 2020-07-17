@@ -4,7 +4,7 @@ def line (katz_deli)
   else
     current_line = "The line is curently:"
     deli.each.with_index(1) do |person, Integer|
-      current_line << #{Integer}. #{person}
+      current_line << "#{Integer}. #{person}"
  end
  puts current_line
 end
